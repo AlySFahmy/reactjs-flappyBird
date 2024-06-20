@@ -14,7 +14,7 @@ const GRAVITY = 6;
 const JUMP_HEIGHT = 75;
 const OBSTACLE_WIDTH = 246;
 const OBSTACLE_GAP = 200;
-const BIRD_LEFT_OFFSET = 100; 
+const BIRD_LEFT_OFFSET = 0; 
 
 const App = () => {
     const [birdHeight, setBirdHeight] = useState(350);
